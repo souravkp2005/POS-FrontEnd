@@ -43,6 +43,7 @@ a{
 #login{
     font-size: 38px;
     font-weight: 700;
+    text-align: center;
 }
 #login-btn{
     margin-top: 10px;
