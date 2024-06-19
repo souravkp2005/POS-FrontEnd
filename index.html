@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login</title>
+        <meta name="description" content="Login Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div>
+            <img id="logo" src="./assets/images/logo.png" alt="">
+            <p>Login</p>
+            <br>
+            <div>
+            <form action="/submitform" method="post">
+                <p class="fieldName">Email</p>
+                <input type="email" name="email">
+                <br>
+                <p class="fieldName">Password</p>
+                <input type="password" name="password">
+                <br>
+                <a href="">Forgot Password?</a>
+                <br>
+                <input name="Login" type="submit" value="Sign in"/>
+            </form>
+            </div>
+            <p>or cotinue with</p>
+            <div>
+                <button class="thirdPartyLogin"><img class="icon" src="./assets/images/google.svg" alt="google icon"></button>
+                <button class="thirdPartyLogin"><img class="icon" src="./assets/images/github.svg" alt="github icon"></button>
+                <button class="thirdPartyLogin"><img class="icon" src="./assets/images/facebook.svg" alt="facebook icon"></button>
+            </div>
+            
+            <p>Don't have a account yet? <a href="">Register for free</a></p>
+            
+
+
+        </div>
+        
+        <script src="./index.js" async defer></script>
+    </body>
+</html>
