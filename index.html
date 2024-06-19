@@ -15,9 +15,10 @@
         <div id="background">
 
             <div id="rectangle">
-                <img id="logo" src="./assets/images/logo.png" alt="">
+                <div class="logo-container">
+                    <img id="logo" src="./assets/images/logo.png" alt="">
+                </div>
                 <p id="login">Login</p>
-                <br>
                 <div>
                     <form action="/submitform" method="post">
                         <p class="fieldName">Email</p>
@@ -26,13 +27,16 @@
                         <p class="fieldName">Password</p>
                         <input class="field" type="password" name="password">
                         <br>
+                        <br>
                         <a id="forgot-pass" href="">Forgot Password?</a>
+                        <br>
                         <br>
                         <div class="login-btn-cont">
                             <input id="login-btn" name="Login" type="submit" value="Sign in" />
                         </div>
                     </form>
                 </div>
+                <br>
                 <p class="center">or cotinue with</p>
                 <div class="button-container">
                     <button class="thirdPartyLogin"><img class="icon" src="./assets/images/google.svg"
