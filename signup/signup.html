@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="description" content="Signup Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <div id="outer-container">
+        <div id="background">
+
+            <div id="rectangle">
+                <div class="logo-container">
+                    <img id="logo" src="./assets/images/logo.png" alt="">
+                </div>
+                <p id="login">Signup</p>
+                <div>
+                    <form action="/submitform" method="post">
+                        <p class="fieldName">Email</p>
+                        <input class="field" type="email" name="email">
+                        <br>
+                        <p class="fieldName">Password</p>
+                        <input class="field" type="password" name="password">
+                        <br>
+                        <p class="fieldName">Confirm Password</p>
+                        <input class="field" type="password" name="password">
+                        <br>
+                        <div class="login-btn-cont">
+                            <input id="login-btn" name="Login" type="submit" value="Signup" />
+                        </div>
+                    </form>
+                </div>
+                <br>
+                <p class="center">or cotinue with</p>
+                <div class="button-container">
+                    <button class="thirdPartyLogin"><img class="icon" src="./assets/images/google.svg"
+                            alt="google icon"></button>
+                    <button class="thirdPartyLogin"><img class="icon" src="./assets/images/github.svg"
+                            alt="github icon"></button>
+                    <button class="thirdPartyLogin"><img class="icon" src="./assets/images/facebook.svg"
+                            alt="facebook icon"></button>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./signup.css" async defer></script>
+</body>
+
+</html>
